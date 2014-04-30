@@ -1,0 +1,20 @@
+{
+  "name": "appconfig",
+  "version": "0.0.0",
+  "keywords": [ "config", "app", "json", "env" ],
+  "homepage": "http://github.com/aj0strow/appconfig",
+  "bugs": {
+    "url": "http://github.com/aj0strow/appconfig/issues",
+    "email": "alexander.ostrow@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "AJ Ostrow",
+    "email": "alexander.ostrow@gmail.com",
+    "url": "http://www.ajostrow.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aj0strow/appconfig.git"
+  }
+}
