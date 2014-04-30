@@ -1,7 +1,12 @@
 {
   "name": "appconfig",
   "version": "0.0.0",
-  "keywords": [ "config", "app", "json", "env" ],
+  "keywords": [
+    "config",
+    "app",
+    "json",
+    "env"
+  ],
   "homepage": "http://github.com/aj0strow/appconfig",
   "bugs": {
     "url": "http://github.com/aj0strow/appconfig/issues",
@@ -16,5 +21,11 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/aj0strow/appconfig.git"
+  },
+  "dependencies": {
+    "deepmerge": "^0.2.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
   }
 }

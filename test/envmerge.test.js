@@ -1,5 +1,5 @@
-var envmerge = require('../lib/envmerge')
 var assert = require('assert')
+var envmerge = require('../lib/envmerge')
 
 describe('lib/envmerge', function () {
   var json = {
