@@ -18,6 +18,7 @@
     "email": "alexander.ostrow@gmail.com",
     "url": "http://www.ajostrow.me"
   },
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "http://github.com/aj0strow/appconfig.git"
