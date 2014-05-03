@@ -5,6 +5,17 @@ var config = require('../lib/config')
 describe('lib/config', function () {
   var folder = path.resolve(__dirname, 'config')
 
+  describe('test', function () {
+    before(function () {
+      process.env.NODE_ENV = 'test'
+    })
+
+    it('should have url', function () {
+      var mongo = config(folder).mongo
+      assert.equal('mongodb://localhost/test', mongo)
+    })
+  })
+
   describe('development', function () {
     before(function () {
       process.env.NODE_ENV = 'development'
